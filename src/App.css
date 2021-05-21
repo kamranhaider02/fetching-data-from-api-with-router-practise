@@ -1,38 +1,77 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  margin-left: 5%;
+  margin-right: 5%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header {
+  background-color: rgb(144, 176, 204);
+  width: 100%;
+  height: 70px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: larger;
+}
+.brand {
+  display: inline-block;
+  float: left;
+  margin-left: 5%;
+}
+.brand a {
+  display: inline-block;
+}
+.menus {
+  display: inline-block;
+  float: right;
+  margin-right: 5%;
+  padding-bottom: -20px;
+}
+a {
+  color: rgb(82, 50, 50);
+  margin: 10px;
+  text-decoration: none;
+  float: left;
+}
+a:hover {
+  color: rgb(9, 57, 100);
+}
+.news-card {
+  height: 100px;
+  width: 250px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding-top: 70px;
+  background-color: rgb(209, 208, 231);
+}
+.news-card:hover {
+  background-color: rgb(172, 171, 224);
+  border-radius: 5%;
+}
+.clear{
+  clear: both;
+}
+.footer{
+  height: 70px;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: rgb(144, 176, 204);
+  margin-top: 100px;
+}
+.footer h4{ 
+  display: inline;
+float: left;
+}
+.footer img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline;
+  float: right;
+}
+.topNews{
+  text-align: center;
 }
